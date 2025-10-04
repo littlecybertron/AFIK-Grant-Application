@@ -37,35 +37,50 @@ Please provide the following:
 
 ### Project Details
 
-We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
-
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations that might not be obvious
-
-
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
-
-- The (future) tokenomics of your project
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+Technology Stack:
+- Core Framework: Substrate (Polkadot SDK)
+- Smart Contracts: ink! + Solidity (dual compatibility)
+- Reserve Oracle: Polkadot Oracle Module (off-chain workers)
+- Identity/Compliance: Polkadot DID Pallet + Atala PRISM integration
+- Storage: IPFS / Filecoin for audit proofs
+- Validator Governance: AFIK member fintechs as distributed validators
+- UI/UX Components:
+  - Web dashboard for fintechs to mint/redeem tokens and view reserves
+  - API layer for third-party fintech integrations (GraphQL/REST)
+  - Transparency dashboard displaying live reserve attestations
+- The project is:
+  - Not a speculative crypto asset or ICO.
+  - Not designed for retail speculation.
+  - Not a replacement for CBDC, but complementary to existing monetary systems.
 
 ### Ecosystem Fit
 
-Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
-
-- Where and how does your project fit into the ecosystem?
-- Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
-- What need(s) does your project meet?
-- How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
-- Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different? Please identify and assess any projects addressing the same need and explain how your project is distinct. Feel free to include applicable research data, statistics, or metrics.
-  - If not, please indicate why such a project might not have been possible, successful, or attempted. 
-- Are there any projects similar to yours in related ecosystems? 
+- Position within Polkadot Ecosystem: TD$ introduces a real-world, fiat-backed stablecoin use case into the Polkadot network, creating an interoperable bridge between traditional finance, DeFi, and regulatory institutions.
+- Target Audience:
+  - Fintechs, PSPs, and digital banks
+  - Regulated crypto exchanges and wallets
+  - Institutional validators and auditors
+- Needs Addressed
+  - Lack of interoperable settlement rails between fintechs
+  - Absence of a transparent, KES-backed stablecoin
+  - High cost and latency in mobile money settlements
+- Evidence of Market Need
+  - 91% mobile money penetration (CBK, 2025)
+  - 8.5% crypto adoption rate (UNCTAD)
+  - Over 45M digital wallet users in Kenya
+  - AFIK represents 300+ fintechs eager for cross-platform settlement solutions
+- USDC on Polkadot (Circle - private issuer) is a Global USD stablecoin with parachain compatibility. TD$ is different because:
+  - Local Currency Focus: First Substrate-based stablecoin pegged to the Kenyan Shilling (KES).
+  - Regulatory Alignment: Designed under Kenya’s upcoming Virtual Asset Service Providers (VASP) Bill, 2025.
+  - Industry Governance: Issued and validated by the Association of Fintechs in Kenya (AFIK) — an umbrella body for 100+ fintechs.
+  - Hybrid Architecture: Combines Substrate core modules with optional bridges to Cardano and BNB Smart Chain.
+  - Real-World Financial Impact: Addresses fragmented mobile money ecosystems, providing transparent, interoperable digital settlement.
+- eNaira (centralized CBDC) is a Government-issued digital currency pegged to the Nigerian Naira. and digital currency infrastructure. TD$ is different because:
+  -  Local Currency Focus: First Substrate-based stablecoin pegged to the Kenyan Shilling (KES).
+  -  Regulatory Alignment: Designed under Kenya’s upcoming Virtual Asset Service Providers (VASP) Bill, 2025.
+  -  Industry Governance: Issued and validated by the Association of Fintechs in Kenya (AFIK) — an umbrella body for 100+ fintechs.
+  -  Hybrid Architecture: Combines Substrate core modules with optional bridges to Cardano and BNB Smart Chain.
+  -  Real-World Financial Impact: Addresses fragmented mobile money ecosystems, providing transparent, interoperable digital settlement.
 
 ## Team :busts_in_silhouette:
 
@@ -74,41 +89,42 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Chairman of the AFIK Board: Ali Hussein Kassim
+- AFIK Board Members:
+  - Christine Kitale
+  - Munyi Nthigah
+  - Roy Njoka
+  - Mary Mwangi
+  - Rosemary Kimwatu
+  - Sebie Salim
+  - Ali Bin Mohamed
+- Project Project Team:
+ - Roy Njoka, Project Lead (AFIK Board Member, fintech entrepreneur, founder of Digiduka and Terralima).
+ - Kelly Muhindi, Technical Lead (Blockchain Developer & Systems Architect; experience in smart contract design, Substrate integration, and fintech infrastructure).
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Roy Njoka
+- **Contact Email:** r.njoka@afik.or.ke
+- **Website:** www.afik.or.ke
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** 3rd Floor, Utumishi House Mamlaka Road, Nairobi, Kenya. P.O. Box 21605-00505 Nairobi
+- **Registered Legal Entity:** The Association of Fintech of Kenya
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
-
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+AFIK is the national umbrella association representing over 300 fintech companies in Kenya, driving innovation, inclusion, and policy alignment. The Board and project team bring deep experience across fintech, blockchain, and financial infrastructure. AFIK is the leading fintech innovation hub in Africa, driving technological advancement and development across the continent’s financial technology sector. The Board Members serve as the collective voice of fintech companies in Kenya, fostering collaboration, promoting best practices, and advocating for a conducive regulatory environment that enables innovation, inclusion, and growth.
 
 ### Team Code Repos
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+- https://github.com/tigoni/
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
-
+- https://afik.or.ke/team/
+- https://www.linkedin.com/in/stkm
 
 ## Development Status :open_book:
 
