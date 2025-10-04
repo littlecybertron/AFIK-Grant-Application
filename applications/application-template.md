@@ -8,26 +8,32 @@
 - **Team Name:** The Association of Fintechs in Kenya (AFIK)
 - **Payment Details:**
   - **DOT**: 13R16HjgcKuhKqEZqaCVPBss1bf9NGhcRrk11b7sSkojWCsi
-  - **Payment**: For the **USDC** portion of the payment, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). 
-- **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 1, 2 or 3
+  - **Payment**: 16Sz6LtRDweue9wV7NNqFV2h97wmrcvm54jvQYnf6gP7Dxut (USDC). 
+- **[Level]():** 2
 
 > [!IMPORTANT]
 > *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section.
+If this application is in response to an RFP. 
 
 ### Overview
 
 Please provide the following:
 
-- If the name of your project is not descriptive, a tagline (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+- A regulated, Kenya Shilling–backed stablecoin enabling interoperable, programmable finance across Africa’s fintech ecosystem.
+- The Digital Shilling (TD$) is a Kenya Shilling–denominated, fully-reserved stablecoin built to enable seamless, low-cost, and programmable settlements across the fintech ecosystem. Issued by the Association of Fintechs in Kenya (AFIK) — a consortium of 100+ fintechs. TDS will be developed as an open-source protocol leveraging Substrate, with interoperability to Polkadot, Cardano, and BNB Smart Chain networks.TDS will provide:
+  - Stable, KES-pegged digital currency for fintech settlement and on-chain payments.
+  - Validator governance by regulated fintechs.
+  - Reserve audit oracles linking on-chain tokens to off-chain KES reserves.
+  - Smart contract integration for programmable payments, escrow, and compliance.
+- TD$ integrates as a Polkadot parachain module for stablecoin issuance, utilizing Substrate for:
+  - On-chain minting/burning logic.
+  - Cross-chain liquidity bridges (XCMP).
+  - Oracles for reserve verification.
+  - DID-based compliance integration..
+- As Kenya’s leading fintech association, AFIK seeks to establish a trusted, industry-led digital currency, bridging traditional finance with decentralized systems — a first for Sub-Saharan Africa.
 
 ### Project Details
 
