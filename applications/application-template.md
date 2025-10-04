@@ -1,13 +1,13 @@
-# Name of your Project
+# The Digital Shilling (TD$) 
 
 > [!NOTE]
 > This document will be part of the terms and conditions of your agreement and, therefore, needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g., `![](image.png)` instead of `<img>`).
 >
 > See the [Grants Program Process](https://grants.web3.foundation/docs/process) on how to submit a proposal.
 
-- **Team Name:** Legal name of your team (e.g. JsonCorp)
+- **Team Name:** The Association of Fintechs in Kenya (AFIK)
 - **Payment Details:**
-  - **DOT**: For the **DOT** compensation, please provide a Polkadot address (e.g. 15oF4...).
+  - **DOT**: 13R16HjgcKuhKqEZqaCVPBss1bf9NGhcRrk11b7sSkojWCsi
   - **Payment**: For the **USDC** portion of the payment, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). 
 - **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 1, 2 or 3
 
